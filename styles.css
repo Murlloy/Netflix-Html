@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 71px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo__imagem {
+    width: 100px;
+    height: auto;
+}
+
+.user {
+    gap: 20px;
+    display: flex;
+}
+
+.user img {
+    width: 35px;   
+}
+
+.informacoes {
+    padding-top: 32px;
+    padding-left: 70px;
+    align-items: center;
+}
+
+.temas {
+    display: flex;
+    gap: 10px;
+}
+
+.serie {
+    padding-top: 20px;
+    font-size: 47px;
+    font-style: bold;
+}
+
+#diretor {
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.informacoes p {
+    padding-top: 10px;
+    max-width: 400px;
+}
+
+#estrelas {
+    padding-top: 20px;
+    width: 110px;
+}
+
+#butoes {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#butoes button {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    gap: 10px;
+    height: 35px;
+}
+
+#episodes {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#butoes button:first-child {
+    background-color: red;
+    border: none;
+}
+
+#catalogo {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#setas {
+    display: flex;
+    padding-right: 50%;
+    gap: 10px
+}
+
+#setas img {
+    width: 25px;
+}
+
+.item {
+    height: 200px;
+    border-radius: 7px;
+    width: auto;
+}
+
+#lista {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#filmes {
+    height: 200%;
+}
